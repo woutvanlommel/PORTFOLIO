@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Junior Full Stack Developer</title>
+    <title>Wout Vanlommel | Portfolio</title>
     <meta name="description" content="Portfolio of a Junior Full Stack Developer specializing in JavaScript and PHP.">
     
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-32x32.png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
@@ -19,16 +21,24 @@
 
     <header class="glass-header">
         <nav>
-            <div class="logo"><a href="index.html">WOUT.</a></div>
-            <ul class="nav-links">
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <div class="logo"><a href="#/home">WOUT.</a></div>
+            
+            <div class="hamburger" id="hamburger-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <main id="top">
+    <main id="/home">
         <section id="hero">
             <div class="hero-content">
                 <h1>Hi, I build things <br> <span class="text-gradient">for the web.</span></h1>
@@ -37,10 +47,27 @@
             </div>
         </section>
 
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>
+                    Ik ben een gepassioneerde <strong>Junior Full Stack Developer</strong> met een sterke focus op het bouwen van efficiënte weboplossingen. 
+                    Mijn kracht ligt in de combinatie van <strong>JavaScript</strong> aan de voorkant en <strong>PHP</strong> aan de achterkant.
+                </p>
+                <p>
+                    Momenteel werk ik als freelancer om mijn portfolio verder uit te bouwen en bedrijven te helpen met digitale vraagstukken. 
+                    Of het nu gaat om een custom WordPress thema, een API-koppeling of een performant dashboard, ik duik graag in de code om iets moois neer te zetten.
+                </p>
+            </div>
+        </section>
+
         <section id="projects">
             <h2 class="section-title">Selected Projects</h2>
+            
             <div class="projects-grid" id="projects-container">
                 </div>
+
+            <div id="pagination-controls" class="pagination-container"></div>
         </section>
 
         <section id="skills">
@@ -56,18 +83,18 @@
             <p>Open for new opportunities and collaborations.</p>
             
             <div class="social-links">
-                <a href=https://github.com/woutvanlommel" target="_blank" class="social-link" aria-label="GitHub">
+                <a href="https://github.com/woutvanlommel" target="_blank" class="social-link" aria-label="GitHub">
                     <i class="fab fa-github"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/wout-vanlommel-6aa85825a/" target="_blank" class="social-link" aria-label="LinkedIn">
                     <i class="fab fa-linkedin"></i>
                 </a>
-                <a href="mailto:woutvanlommel@icloud.com?subjet='Portfolio contact'" class="social-link" aria-label="Email">
+                <a href="mailto:woutvanlommel@icloud.com?subject=Portfolio%20contact" class="social-link" aria-label="Email">
                     <i class="fas fa-envelope"></i>
                 </a>
             </div>
 
-            <small class="copyright">&copy; 2025 Portfolio. Built with Vanilla JS.</small>
+            <small class="copyright">&copy; 2025 Wout Vanlommel. Built with Vanilla JS.</small>
         </div>
     </footer>
 
