@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const projects = [
         {
             title: "LAROLO Land Rover",
-            description: "Moderne weather application die real-time data ophaalt via OpenWeatherMap API met dynamische achtergronden.",
+            description: "Een custom WordPress-thema ontwikkeld voor Land Rover specialist Larolo. De focus lag op een robuust design dat hun expertise en aanbod overzichtelijk presenteert.",
             tags: ["JavaScript", "PHP", "CSS3", "HTML5", "WordPress Custom Theme"],
             githublink: "https://github.com/woutvanlommel/LAROLO-lode",
             link: "#",
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             title: "NextGenMedia rebranding",
-            description: "RESTful API voor een webshop, inclusief authenticatie, product filtering en veilige JWT login implementatie.",
+            description: "Volledige digitale rebranding voor een mediabureau. Een high-performance website met een strakke UI die de nieuwe huisstijl kracht bijzet.",
             tags: ["JavaScript", "PHP", "CSS3", "HTML5", "WordPress Custom Theme"],
             githublink: "https://github.com/woutvanlommel/nextgenmedia",
             link: "#",
@@ -22,10 +22,10 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             title: "JRK Herckenrode website",
-            description: "Een custom dashboard voor klantenbeheer, gebouwd met een PHP backend en MySQL database. Inclusief real-time data visualisatie.",
+            description: "Een informatieve platform voor Jeugd Rode Kruis Herckenrode. Gebouwd om nieuws, activiteiten en inschrijvingen toegankelijk te maken voor leden en ouders.",
             tags: ["JavaScript", "PHP", "CSS3", "HTML5", "WordPress Custom Theme"],
             githublink: "https://github.com/woutvanlommel/jrk",
-            link: "#",
+            link: "https://www.jrkherckenrode.be/",
             image: "assets/projectimages/jrk-herckenrode.png" 
         },
     ];
