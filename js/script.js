@@ -2,30 +2,46 @@ document.addEventListener('DOMContentLoaded', () => {
 
     /* --- DATA CONFIG --- */
     
-    const projects = [
+   const projects = [
         {
             title: "LAROLO Land Rover",
-            description: "Een custom WordPress-thema ontwikkeld voor Land Rover specialist Larolo. De focus lag op een robuust design dat hun expertise en aanbod overzichtelijk presenteert.",
+            description: "A custom WordPress theme developed for Land Rover specialist Larolo. The focus was on a robust design that clearly presents their expertise and current stock.",
             tags: ["JavaScript", "PHP", "CSS3", "WordPress", "Design"],
             githublink: "https://github.com/woutvanlommel/LAROLO-lode",
-            link: "#", // Deze knop wordt nu verborgen omdat hij '#' is
+            link: "#", 
             image: "./assets/projectimages/larolo.png"
         },
         {
-            title: "NextGenMedia rebranding",
-            description: "Volledige digitale rebranding voor een mediabureau. Een high-performance website met een strakke UI die de nieuwe huisstijl kracht bijzet.",
+            title: "NextGenMedia Rebranding",
+            description: "Complete digital rebranding for a media agency. A high-performance website with a sleek UI that powerfully reinforces the new brand identity.",
             tags: ["JavaScript", "PHP", "CSS3","WordPress", "Design"],
             githublink: "https://github.com/woutvanlommel/nextgenmedia",
-            link: "", // Leeg gelaten -> knop wordt verborgen
+            link: "", 
             image: "./assets/projectimages/nextgenmedia.png"
         },
         {
-            title: "JRK Herckenrode website",
-            description: "Een informatieve platform voor Jeugd Rode Kruis Herckenrode. Gebouwd om nieuws, activiteiten en inschrijvingen toegankelijk te maken voor leden en ouders.",
+            title: "JRK Herckenrode Website",
+            description: "An informative platform for Youth Red Cross Herckenrode. Built to make news, activities, and registrations easily accessible for members and parents.",
             tags: ["JavaScript", "PHP", "CSS3", "WordPress", "Design"],
             githublink: "https://github.com/woutvanlommel/jrk",
-            link: "https://www.jrkherckenrode.be/", // Deze wordt wel getoond
+            link: "https://www.jrkherckenrode.be/", 
             image: "assets/projectimages/jrk-herckenrode.png" 
+        },
+        {
+            title: "Chinese Zodiac Sign Finder",
+            description: "An interactive web application that allows users to discover their Chinese zodiac sign. Enter your birth year, and the tool immediately calculates the corresponding animal. <br> <b>Can you find the easter egg?</b>",
+            tags: ["JavaScript", "CSS3", "HTML5"],
+            githublink: "https://github.com/woutvanlommel/chineseZodiacSigns",
+            link: "https://woutvanlommel.github.io/chineseZodiacSigns/", 
+            image: "assets/projectimages/chineseZodiacSign.png" 
+        },
+        {
+            title: "Weather Dashboard",
+            description: "A creative twist on the standard weather app. View real-time weather data from four unique perspectives: for <b>Surfers</b>, <b>Gardeners</b>, <b>Vampires</b>, and the <b>Illuminati</b>. The interface and displayed data adapt dynamically to the user's needs.",
+            tags: ["JavaScript", "CSS3", "HTML5"],
+            githublink: "https://github.com/woutvanlommel/weather-app",
+            link: "https://woutvanlommel.github.io/weather-app/index.html", 
+            image: "assets/projectimages/weatherApp.png" 
         },
     ];
 
