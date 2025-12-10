@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: "LAROLO Land Rover",
             description: "Moderne weather application die real-time data ophaalt via OpenWeatherMap API met dynamische achtergronden.",
             tags: ["JavaScript", "PHP", "CSS3", "HTML5", "WordPress Custom Theme"],
-            githublink: "#",
+            githublink: "https://github.com/woutvanlommel/LAROLO-lode",
             link: "#",
             image: "./assets/projectimages/larolo.png"
         },
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: "NextGenMedia rebranding",
             description: "RESTful API voor een webshop, inclusief authenticatie, product filtering en veilige JWT login implementatie.",
             tags: ["JavaScript", "PHP", "CSS3", "HTML5", "WordPress Custom Theme"],
-            githublink: "#",
+            githublink: "https://github.com/woutvanlommel/nextgenmedia",
             link: "#",
             image: "./assets/projectimages/nextgenmedia.png"
         },
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: "JRK Herckenrode website",
             description: "Een custom dashboard voor klantenbeheer, gebouwd met een PHP backend en MySQL database. Inclusief real-time data visualisatie.",
             tags: ["JavaScript", "PHP", "CSS3", "HTML5", "WordPress Custom Theme"],
-            githublink: "#",
+            githublink: "https://github.com/woutvanlommel/jrk",
             link: "#",
             image: "assets/projectimages/jrk-herckenrode.png" 
         },
@@ -37,10 +37,11 @@ document.addEventListener('DOMContentLoaded', () => {
         "HTML5", 
         "CSS3", 
         "MySQL", 
-        "Git", 
+        "Git",
+        "Vite", 
         "VS Code", 
-        "Laravel",
-        "Angular"
+        "Laravel",,
+        "WordPress Custom Themes",
     ];
 
     /* --- RENDER LOGIC --- */
